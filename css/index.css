@@ -245,9 +245,21 @@ p {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .pic-div p {
     width: 50%;
 }
+
+.button {
+    border-style: none;
+}
+
+.pic-div {
+    border-bottom: 4px dotted black;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
