@@ -144,3 +144,25 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+box-sizing:border-box;
+  border:1px solid grey;
+  max-width:100%;
+}
+
+html{
+    font-size:62.5%;
+  }
+  body{
+    font-size:1.8rem;
+    line-height:1.5;
+    font-family: 'Raleway', sans-serif;
+    padding: 2%;
+  }
+
+.hero-image {
+    background-image: url("img/jumbo.jpg");
+    height:10vh;
+    background-size:cover;
+    background-repeat:no-repeat;
+}
