@@ -127,17 +127,18 @@ p {
 }
 
 footer {
+    display: flex;
     width: 100%;
     background: black;
+
+    
 }
 
 footer nav {
     width: 60%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding: 20px 2%;
     font-size: 14px;
+    margin-bottom: 2%;
 }
 
 footer nav a {
@@ -234,4 +235,19 @@ nav a:visited {
 
 .boxes {
     display: flex;
+}
+
+p {
+    font-size: 1rem;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.pic-div p {
+    width: 50%;
 }
