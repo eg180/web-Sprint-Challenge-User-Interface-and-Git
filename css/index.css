@@ -160,6 +160,11 @@ html{
     
   }
 
+.box {
+    width: 300px;
+    height: 300px;
+}
+
 .box1 {
     background-color: teal;
 }
@@ -203,11 +208,22 @@ html{
 nav {
     display: flex;
     justify-content: space-around;
-    margin-left: 24%;
-    margin-right: 27%;
+    align-items: flex-end;
+    width: 50%;
+    margin-left: 24.0%;
+    font-size: .90rem;
     margin-top: 2%;
     margin-bottom: 2%;
 
+
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: grey;
 }
 
 .hero-image {
@@ -216,3 +232,6 @@ nav {
     margin-bottom: 2%;
 }
 
+.boxes {
+    display: flex;
+}
