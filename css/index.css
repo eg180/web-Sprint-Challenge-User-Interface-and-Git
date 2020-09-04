@@ -154,10 +154,10 @@ html{
     font-size:62.5%;
   }
   body{
-    font-size:1.8rem;
+    font-size:1.2rem;
     line-height:1.5;
     font-family: 'Raleway', sans-serif;
-    padding: 2%;
+    
   }
 
 .box1 {
@@ -199,3 +199,20 @@ html{
 .box10 {
     background-color: dodgerblue;
 }
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 24%;
+    margin-right: 27%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+
+}
+
+.hero-image {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+
